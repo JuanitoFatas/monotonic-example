@@ -1,0 +1,17 @@
+sudo: false
+cache:
+  bundler: true
+env:
+  global:
+    - "JRUBY_OPTS='--dev -J-Xmx1024M'"
+language: ruby
+rvm:
+  - 2.4.2
+  - 2.3.5
+  - 2.2.8
+  - 2.1.10
+  - 2.0
+  - jruby-9.1.13.0
+  - ruby-head
+allow_failures:
+  - rvm: ruby-head
