@@ -1,5 +1,7 @@
 # Monotonic
 
+[![Build Status](https://travis-ci.org/JuanitoFatas/monotonic.svg?branch=master)](https://travis-ci.org/JuanitoFatas/monotonic)
+
 TODO: Delete this and the text above, and describe your gem
 
 ## Installation
