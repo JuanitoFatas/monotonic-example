@@ -10,9 +10,17 @@ rvm:
   - 2.3.5
   - 2.2.8
   - 2.1.10
-  - 2.0
-  - 1.9
-  - jruby-9.1.13.0
+  - 2.0.0
+  - jruby
   - ruby-head
+jdk:
+  - openjdk6
+  - openjdk7
+  - openjdk8
+  - openjdk9
+  - oraclejdk6
+  - oraclejdk7
+  - oraclejdk8
+  - oraclejdk9
 allow_failures:
   - rvm: ruby-head
