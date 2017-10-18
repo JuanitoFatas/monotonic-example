@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/JuanitoFatas/monotonic.svg?branch=master)](https://travis-ci.org/JuanitoFatas/monotonic)
 
-TODO: Delete this and the text above, and describe your gem
+Get Monotonic time in Ruby and JRuby.
 
 ## Installation
 
@@ -22,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+Monotonic.now
+=> 54455.21951679
+```
 
 ## License, Contributor's Guidelines
 
