@@ -1,3 +1,4 @@
+before_install: gem install bundler
 sudo: false
 cache:
   bundler: true
@@ -10,8 +11,16 @@ rvm:
   - 2.3.5
   - 2.2.8
   - 2.1.10
-  - 2.0
-  - jruby-9.1.13.0
+  - 2.0.0
+  - jruby
   - ruby-head
-allow_failures:
-  - rvm: ruby-head
+
+jdk:
+  - openjdk7
+  - openjdk8
+  - oraclejdk8
+  - oraclejdk9
+
+matrix:
+  allow_failures:
+    - rvm: ruby-head
