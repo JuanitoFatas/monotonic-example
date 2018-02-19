@@ -1,29 +1,11 @@
 # Monotonic
 
-[![Build Status](https://travis-ci.org/JuanitoFatas/monotonic.svg?branch=master)](https://travis-ci.org/JuanitoFatas/monotonic)
-
 Get Monotonic time in Ruby and JRuby.
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem "monotonic"
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install monotonic
 
 ## Usage
 
 ```ruby
-Monotonic.now
+Monotonic.now # in seconds
 => 54455.21951679
 ```
 
